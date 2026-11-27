@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Gallery</h1>
+            <p>Select photo to zoom</p>
+        </header>
+
+        <section id="gallery" class="swiper" aria-label="Photo Gallery">
+            <div class="cards swiper-wrapper">
+                <article class="card swiper-slide">
+                    <a href="./assets/fjord.webp" class="glightbox"
+                        data-gallery="landscapes" data-title="Fjord">
+                        <img src="./assets/fjord.webp" alt="Fjord" width="1280" height="800">
+                    </a>
+                    <h2>Fjord</h2>
+                </article>
+                <article class="card swiper-slide">
+                    <a href="./assets/canyon.webp" class="glightbox"
+                        data-gallery="landscapes" data-title="Canyon">
+                        <img src="./assets/canyon.webp" alt="Canyon" width="1280" height="800">
+                    </a>
+                    <h2>Canyon</h2>
+                </article>
+                <article class="card swiper-slide">
+                    <a href="./assets/hills.webp" class="glightbox"
+                        data-gallery="landscapes" data-title="Hills">
+                        <img src="./assets/hills.webp" alt="Hills" width="1280" height="800">
+                    </a>
+                    <h2>Hills</h2>
+                </article>
+                <article class="card swiper-slide">
+                    <a href="./assets/waterfall.webp" class="glightbox"
+                        data-gallery="landscapes" data-title="Waterfall">
+                        <img src="./assets/waterfall.webp" alt="Waterfall" width="1280" height="800">
+                    </a>
+                    <h2>Waterfall</h2>
+                </article>
+                <article class="card swiper-slide">
+                    <a href="./assets/waves.webp" class="glightbox"
+                        data-gallery="landscapes" data-title="Waves">
+                        <img src="./assets/waves.webp" alt="Waves" width="1280" height="800">
+                    </a>
+                    <h2>Waves</h2>
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+    </main>  
+</body>
+</html>

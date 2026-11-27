@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #d5d1d1;
+    color: #181717;
+}
+
+#gallery {
+    padding-bottom: 30px;
+}
+
+.card {
+    /* overflow: hidden; */
+}
+
+.card a {
+    display: block;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /*aspect-ratio: 16 / 10;*/
+}
+
